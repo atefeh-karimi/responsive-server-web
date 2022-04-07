@@ -197,8 +197,10 @@ form input[type="text"] {
 }
 
 .statuses > h3 {
-  padding-bottom: 3rem;
-  max-width: 600px;
+  /* padding-bottom: 3rem; */
+  /* max-width: 600px; */
+  text-align: center;
+  padding: 0 1rem 3rem 1rem;
   margin: auto;
 }
 
@@ -509,6 +511,18 @@ form input[type="text"] {
     order: 5;
   }
 
+  header p {
+    padding: 0 1rem;
+  }
+
+  .statuses > h3 {
+    font-size: 22px;
+    padding: 0 1rem;
+  }
+  .cloud__info h2 {
+    font-size: 26px;
+  }
+
   /* =====================FOOTER==================== */
   .footer__container {
     flex-direction: column;
@@ -527,5 +541,10 @@ form input[type="text"] {
   .footer__socials {
     margin-top: 0;
     padding-left: 0;
+  }
+
+  .cli__img {
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
