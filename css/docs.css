@@ -1,0 +1,145 @@
+/* =====================docsHead==================== */
+.docsHead {
+  background: var(--color-bg1);
+  padding: 2rem 0;
+  color: white;
+}
+.docsHead__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.docsHeads__info h1 {
+  padding-bottom: 8px;
+}
+
+.docsHead__img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+/* =====================docs==================== */
+.docs {
+  padding: 2rem 0;
+}
+.docs__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.docs__aside {
+  padding: 2rem;
+  height: 450px;
+  background: #ccc;
+  border: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.docs__aside ul {
+  padding: 8px 0;
+}
+
+.docs__aside li {
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+
+.docs__aside ul a {
+  color: black;
+}
+
+.docs__aside ul a:hover {
+  color: var(--color-bg1);
+}
+
+.docs__content {
+  padding: 2rem;
+  border: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.alert {
+  color: white;
+  margin: 1rem 0;
+}
+
+.docs__content .flex {
+  justify-content: flex-start;
+}
+
+.alert i {
+  margin-left: 12px;
+}
+
+.alert p {
+  margin-bottom: 0;
+}
+
+.docs__content > h4 {
+  padding-bottom: 1rem;
+}
+
+.docs__content .btn {
+  width: 120px;
+  padding: 8px 20px;
+  margin-bottom: 1.5rem;
+}
+
+.docs__content-requirements h2 {
+  padding-bottom: 1rem;
+}
+
+.docs__content-requirements li {
+  padding-bottom: 5px;
+  font-family: sahelLatin;
+}
+
+.docs__content-install h2 {
+  padding: 1rem 0;
+}
+
+.docs__content-install p {
+  direction: ltr;
+  font-size: 18px;
+}
+
+.docs__content-install pre {
+  background: #333;
+  color: white;
+  padding: 12px;
+}
+
+.user-select {
+  user-select: none;
+}
+
+/* ===========================MEDIA QUERIES(TABLET and under)============================= */
+@media (max-width: 1024px) {
+  .docsHead__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .docsHead__img {
+    width: 200px;
+    justify-self: center;
+  }
+
+  /* =====================docs==================== */
+  .docs__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
+
+/* ===================================MEDIA QUERIES(MOBILE)============================== */
+@media (max-width: 600px) {
+}

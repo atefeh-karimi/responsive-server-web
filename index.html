@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Responsive_Website | HTML, CSS Grid, Flexbox</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav__container flex">
+            <ul class="nav__menu flex">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="features.html">امکانات</a></li>
+                <li><a href="docs.html">مستندات</a></li>
+            </ul>
+            <a class="logo" href="index.html">
+                <h1>AT<small style="color:var(--color-danger);">web</small></h1>
+            </a>
+        </div>
+    </nav>
+
+    <!-- ========================END OF NAVBAR========================= -->
+
+    <header>
+        <div class="container header__container">
+
+            <div class="header__text">
+                <h1>پرداخت آسان</h1>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ با استفاده از طراحان گرافیک است، چاپگرها و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم، و با استفاده از طراحان گرافیک است، چاپگرها و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                <a href="features.html" class="btn btn-outline">بیشتر بخوانید...</a>
+            </div>
+
+            <div class="header__form">
+                <h3>ارسال ایمیل</h3>
+                <form>
+                    <div class="fullName">
+                        <input type="text" name="name" placeholder="نام و نام خانوادگی :" required>
+                    </div>
+                    <div class="companyName">
+                        <input type="text" name="copmany-name" placeholder="نام شرکت :" required>
+                    </div>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="ایمیل :" required>
+                    </div>
+                    <input type="submit" value="ارسال" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================END OF HEADER========================= -->
+
+    <section class="statuses">
+        <h3>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+        </h3>
+        <div class="container statuses__container">
+
+            <article class="status">
+                <span class="status__icon">
+                    <i class="fas fa-server"></i>
+                </span>
+                <h3>۱۰،۳۴۹،۴۰۵</h3>
+                <p>درحال اجرا</p>
+            </article>
+
+            <article class="status">
+                <span class="status__icon">
+                    <i class="fas fa-upload"></i>
+                </span>
+                <h3> ۹۸۷‌ترابایت </h3>
+                <p>آپلود</p>
+            </article>
+
+            <article class="status">
+                <span class="status__icon">
+                    <i class="fas fa-project-diagram"></i>
+                </span>
+                <h3>۲،۲۳۴،۹۴۷</h3>
+                <p> اشتراک گذاری</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ========================END OF STATUS========================= -->
+
+    <section class="cli">
+        <div class="container cli__container">
+            <div class="cli__cards">
+                <div class="card">
+                    <h3>راه اندازی تنهاباچند کلیک</h3>
+                </div>
+                <div class="card">
+                    <h3>اتصال امن و بهینه</h3>
+                </div>
+            </div>
+            <div class="cli__img">
+                <div class="dot-wrapper">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <pre><code>npm install -g ATI-cli</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================END OF CLI========================= -->
+
+    <section class="cloud">
+        <div class="container cloud__container">
+            <div class="cloud__info text-center">
+                <h2>دارای پشتیبانی ۲۴ ساعته</h2>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                <a href="features.html" class="btn btn-darkblue">اطلاعات بیشتر</a>
+            </div>
+            <div class="cloud__img">
+                <img src="images/cloud.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================END OF CLOUD========================= -->
+
+    <section class="languages">
+        <h2>پشتیبانی انواع زبان ها</h2>
+        <div class="container languages__container">
+
+            <div class="language card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png">
+            </div>
+
+            <div class="language card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png">
+            </div>
+
+            <div class="language card">
+                <h4>Ruby</h4>
+                <img src="images/logos/ruby.png">
+            </div>
+
+            <div class="language card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png">
+            </div>
+
+            <div class="language card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png">
+            </div>
+
+            <div class="language card">
+                <h4>Clojure</h4>
+                <img src="images/logos/clojure.png">
+            </div>
+
+            <div class="language card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================END OF LANGUAGES========================= -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <a href="index.html">
+                    <h1>AT<small style="color:var(--color-danger);">web</small></h1>
+                </a>
+                <small>Copyright &copy;ATIK2</small>
+            </div>
+
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="features.html">امکانات</a></li>
+                    <li><a href="docs.html">مستندات</a></li>
+                </ul>
+            </nav>
+
+            <ul class="footer__socials">
+                <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-paper-plane"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <!-- ========================END OF FOOTER========================= -->
+
+</body>
+
+</html>

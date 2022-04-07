@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fontawesome-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/docs.css">
+    <title>Responsive_Website | HTML, CSS Grid, Flexbox</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav__container flex">
+            <ul class="nav__menu flex">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="features.html">امکانات</a></li>
+                <li><a href="docs.html">مستندات</a></li>
+            </ul>
+            <a class="logo" href="index.html">
+                <h1>AT<small style="color:var(--color-danger);">web</small></h1>
+            </a>
+        </div>
+    </nav>
+
+    <!-- ========================END OF NAVBAR========================= -->
+
+    <section class="docsHead">
+        <div class="container docsHead__container">
+            <div class="docsHead__info">
+                <h1>مستندات</h1>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.زمان
+                    مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                    استفاده قرار گیرد. </p>
+            </div>
+
+            <div class="docsHead__img">
+                <img src="./images/docs.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================END OF docsHead========================= -->
+
+    <section class="docs">
+        <div class="container docs__container">
+            <div class="docs__aside card">
+                <h4>ملزومات</h4>
+                <ul class="essential">
+                    <li><a href="">مقدمه</a></li>
+                    <li><a href="">درباره</a></li>
+                    <li><a href="">نصب</a></li>
+                </ul>
+
+                <h4>راه اندازی</h4>
+                <ul class="deploy">
+                    <li><a href="">تنظیمات</a></li>
+                    <li><a href="">استفاده</a></li>
+                    <li><a href="">مدیریت</a></li>
+                    <li><a href="">آپدیت</a></li>
+                </ul>
+
+            </div>
+
+            <div class="docs__content card">
+                <h1>مقدمه</h1>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است. چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                    آینده، شناخت فراوان جامعه و متخصصان را می طلبد.</p>
+                <div class="alert flex bg-success">
+                    <i class="fa fa-info"></i>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ!</p>
+                </div>
+                <h4>لورم ایپسوم</h4>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است. چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                <a href="" class="btn btn-primary">دانلود</a>
+
+                <div class="docs__content-requirements">
+                    <h2>مشخصات موردنیاز</h2>
+                    <ul>
+                        <li>Windows 10 64-bit or 32-bit</li>
+                        <li>Windows Vista 32-bit, Direct X 9 or later</li>
+                    </ul>
+                </div>
+
+                <div class="docs__content-install">
+                    <h2>نصب</h2>
+
+                    <p>Mac</p>
+                    <pre><code><i class="user-select">$ </i>sudo install ATI-cli</code></pre>
+
+                    <p>NPM</p>
+                    <pre><code><i class="user-select">$ </i>npm install ATI-cli</code></pre>
+
+                    <p>Yarn</p>
+                    <pre><code><i class="user-select">$ </i>yarn install ATI-cli</code></pre>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================END OF docs========================= -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <a href="index.html">
+                    <h1>AT<small style="color:var(--color-danger);">web</small></h1>
+                </a>
+                <small>Copyright &copy;ATIK2</small>
+            </div>
+
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="features.html">امکانات</a></li>
+                    <li><a href="docs.html">مستندات</a></li>
+                </ul>
+            </nav>
+
+            <ul class="footer__socials">
+                <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-paper-plane"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <!-- ========================END OF FOOTER========================= -->
+
+</body>
+
+</html>
