@@ -544,7 +544,8 @@ form input[type="text"] {
   }
 
   .cli__img {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 350px;
   }
 }
