@@ -512,7 +512,12 @@ form input[type="text"] {
   }
 
   header p {
-    padding: 0 1rem;
+    padding: 0 3rem;
+  }
+
+  .header__form {
+    width: 350px;
+    height: 350px;
   }
 
   .statuses > h3 {
