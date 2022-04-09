@@ -142,4 +142,7 @@
 
 /* ===================================MEDIA QUERIES(MOBILE)============================== */
 @media (max-width: 600px) {
+  .docsHead__info p {
+    padding: 0 1rem;
+  }
 }

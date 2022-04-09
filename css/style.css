@@ -511,8 +511,9 @@ form input[type="text"] {
     order: 5;
   }
 
+  /* =====================HEADER==================== */
   header p {
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 
   .header__form {
@@ -520,10 +521,13 @@ form input[type="text"] {
     height: 350px;
   }
 
+  /* =====================STATUS==================== */
   .statuses > h3 {
     font-size: 22px;
     padding: 0 1rem;
   }
+
+  /* =====================CLOUD==================== */
   .cloud__info h2 {
     font-size: 26px;
   }
